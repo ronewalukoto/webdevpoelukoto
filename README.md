@@ -17,10 +17,10 @@
 #Key Features and Fuctionality:
 -	The Website will have essential pages and features
 
-•	Homepage: The Website will have the homepage as the page that will showcase most of the important information and try to make the end users want to feel like going through the website.
-•	About Us Page: The About Us page will give a detailed overview of the website which can include when TCC was launched and the history of it. This page will also include FAQ and reviews from previous customers.
-•	Services Page: This page is going too focus on the services and products which are being offered by the organization such as Cleaning of Laptops and Desktops, the selling of tech related products like RAM, CPUs and etc.…
-•	Contact Us: This a very vital place where end users of visiting the website can get information of how they can get hold of the organization.
+-	Homepage: The Website will have the homepage as the page that will showcase most of the important information and try to make the end users want to feel like going through the website.
+- About Us Page: The About Us page will give a detailed overview of the website which can include when TCC was launched and the history of it. This page will also include FAQ and reviews from previous customers.
+- Services Page: This page is going too focus on the services and products which are being offered by the organization such as Cleaning of Laptops and Desktops, the selling of tech related products like RAM, CPUs and etc.…
+- Contact Us: This a very vital place where end users of visiting the website can get information of how they can get hold of the organization.
 
 #Timeline and Milestones:
 
