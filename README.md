@@ -49,14 +49,14 @@ Weeks	Milestone	Task	Status
 
 Sitemap:
 
-• Sitemap
+#Sitemap
 
 TCC IT Group
-Home
+- Home
 •	About Us
 •	Contact
 •	Promotions / Featured Deals
-Products
+- Products
 •	PC Components
 •	  - Processors (CPUs)
 •	  - Graphics Cards (GPUs)
@@ -74,13 +74,13 @@ Products
 •	  - Cooling Pads
 •	  - Cables
 •	  - Adapters
-Services
+- Services
 •	PC Assembly
 •	Laptop/PC Cleaning
 •	Troubleshooting & Repairs
 •	Custom Build Consultation
 
-About Us
+- About Us
 •	Historical Information about the Organization 
 
 Contact Us 
