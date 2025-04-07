@@ -25,15 +25,15 @@
 #Timeline and Milestones:
 
 Weeks	Milestone	Task	Status
-Week 1	1	Conducting Research	Completed
-Week 2	1	Further research 	Completed
-Week 3	2	Prepare Proposal	Completed
-Week 4	3	Plan the Structure and Layout of the website	Completed
-Week 5	4	Build the website through HTML	Completed
-Week 6	5	Apply CSS	Pending
-Week 7	6	Debagging	Pending
-Week 8	7	Utilization of JavaScript	Pending
-Week 9	8	Testing And Debegging	Pending
+- Week 1	1	Conducting Research	Completed
+- Week 2	1	Further research 	Completed
+- Week 3	2	Prepare Proposal	Completed
+- Week 4	3	Plan the Structure and Layout of the website	Completed
+- Week 5	4	Build the website through HTML	Completed
+- Week 6	5	Apply CSS	Pending
+- Week 7	6	Debagging	Pending
+- Week 8	7	Utilization of JavaScript	Pending
+- Week 9	8	Testing And Debegging	Pending
 
 #POE Details:
 • Part 1:
