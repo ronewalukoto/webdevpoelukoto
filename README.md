@@ -47,6 +47,49 @@ Weeks	Milestone	Task	Status
 
 • Changelog:
 
+Sitemap:
+
+• Sitemap
+
+TCC IT Group
+Home
+•	About Us
+•	Contact
+•	Promotions / Featured Deals
+Products
+•	PC Components
+•	  - Processors (CPUs)
+•	  - Graphics Cards (GPUs)
+•	  - RAM
+•	  - Motherboards
+•	  - Storage (SSD/HDD)
+•	  - Power Supplies
+•	  - Cases
+•	Peripherals
+•	  - Monitors
+•	  - Keyboards
+•	  - Mice
+•	  - Headsets
+•	Accessories
+•	  - Cooling Pads
+•	  - Cables
+•	  - Adapters
+Services
+•	PC Assembly
+•	Laptop/PC Cleaning
+•	Troubleshooting & Repairs
+•	Custom Build Consultation
+
+About Us
+•	Historical Information about the Organization 
+
+Contact Us 
+
+•	Form
+•	Address
+•	Contact Information
+
+
 • References: 
 
 Bajaj, G. (2025). How Much Does It Cost to Run a Website in 2025. [online] Bluehost Blog. Available at: https://www.bluehost.com/blog/how-much-does-it-cost-to-run-a-website-2025/ [Accessed 7 Apr. 2025].
