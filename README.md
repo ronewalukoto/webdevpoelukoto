@@ -3,10 +3,10 @@
 #Web Development POE
 
 #Student Information:
-Surname: Lukoto
-Name: Ronewa
-Student Number: ST10457502
-Course: BIB1
+- Surname: Lukoto
+- Name: Ronewa
+- Student Number: ST10457502
+- Course: BIB1
 
 #Project Overview
 
