@@ -208,7 +208,7 @@ body.getintouch {
     background-color: #00a3c4;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
     .navbar {
       flex-direction: column;
       align-items: stretch;
