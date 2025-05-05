@@ -1,6 +1,6 @@
 
 element{
-    all:
+    all:;
 }
 
 
@@ -117,7 +117,7 @@ body{
   
  
   .page_services a {
-    color: #1fc8e4;
+    color: #ffffff;
     text-decoration: underline;
     transition: opacity 0.3s ease;
   }
@@ -138,4 +138,75 @@ body{
     color: #aacfd8;
     text-align: center;
   }
+  
+
+ 
+body.getintouch {
+    padding: 2rem;
+  }
+  
+ 
+  body.getintouch h3:nth-of-type(2),
+  body.getintouch h3:nth-of-type(2) + p,
+  body.getintouch form {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    margin-right: 2%;
+  }
+  
+ 
+  body.getintouch h3:nth-of-type(2) + p img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  body.getintouch form {
+    background-color: #063f5c;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    color: #dcf4f8;
+  }
+  
+  
+  body.getintouch form input[type="text"],
+  body.getintouch form input[type="email"],
+  body.getintouch form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid #1fc8e4;
+    background-color: #022c42;
+    color: #dcf4f8;
+  }
+  
+  
+  body.getintouch form input:focus,
+  body.getintouch form textarea:focus {
+    border-color: #00e0ff;
+    background-color: #033951;
+    outline: none;
+  }
+  
+
+  body.getintouch form button {
+    background-color: #1fc8e4;
+    color: #033951;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  body.getintouch form button:hover {
+    background-color: #00a3c4;
+  }
+  
+  
   
