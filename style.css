@@ -1,6 +1,6 @@
 
 element{
-    all: ;
+    all:
 }
 
 
@@ -79,3 +79,63 @@ body{
   .nav-links a:hover::after {
     width: 100%;
   }
+
+
+
+  
+.page_services {
+    padding: 2rem;
+    line-height: 1.6;
+  }
+  
+  
+  .page_services h3 {
+    margin-top: 2.5rem;
+    font-size: 1.4rem;
+    border-left: 4px solid #1fc8e4;
+    padding-left: 0.75rem;
+    color: #1fc8e4;
+  }
+  
+  
+  .page_services p img {
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+    max-width: 100%;
+  }
+  
+  
+  .page_services p img:hover {
+    transform: scale(1.03);
+  }
+  
+  
+  .page_services p {
+    margin-bottom: 1.2rem;
+  }
+  
+ 
+  .page_services a {
+    color: #1fc8e4;
+    text-decoration: underline;
+    transition: opacity 0.3s ease;
+  }
+  
+  .page_services a:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .page_services hr {
+    margin: 2rem 0;
+    border: none;
+    border-top: 1px solid #1fc8e4;
+  }
+  
+  .page_services p:last-of-type {
+    font-size: 0.9rem;
+    color: #aacfd8;
+    text-align: center;
+  }
+  
