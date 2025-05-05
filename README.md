@@ -30,20 +30,39 @@ Weeks	Milestone	Task	Status
 - Week 3	2	Prepare Proposal	Completed
 - Week 4	3	Plan the Structure and Layout of the website	Completed
 - Week 5	4	Build the website through HTML	Completed
-- Week 6	5	Apply CSS	Pending
-- Week 7	6	Debagging	Pending
+- Week 6	5	Apply CSS	Completed
+- Week 7	6	Debagging	Completed
 - Week 8	7	Utilization of JavaScript	Pending
 - Week 9	8	Testing And Debegging	Pending
 
 #POE Details:
 • Part 1:
 - In this part of the project, Preparations for the websites was made.
+  
 - Such as studying the original website of the organisation (TCC IT Group)
+  
 - Appearance of the website were planned.
+  
 - Key features and how the website will function were also planned
+  
 - Timeline and Milestones were made to keep track of time and compeleted tasks
 
-- Future plans will be submit through Part 2 and 3
+• Part 2:
+- To provide a consistent look across all pages, CSS was applied using an external stylesheet.
+
+- Visual styles, font families, and colour schemes were selected to complement TCC IT Group's branding.
+
+- CSS Flexbox and Grid were used to construct layout structures that efficiently arranged page components.
+
+- Media queries were used in conjunction with responsive design to maximise layout on desktop and mobile devices.
+
+- The navigation bar was designed to be mobile-friendly and adjust to various screen sizes.
+
+- To enhance readability and visual balance, adjustments were made to padding, spacing, and alignment.
+
+- To improve the user experience, transitions and hover effects were included for interactive areas.
+
+- Future plans will be submit through and 3
 
 • Changelog:
 
