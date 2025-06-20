@@ -189,17 +189,24 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-$(document).ready(function () {
-  $('#chat-form').on('submit', function (e) {
-    e.preventDefault();
+function sendMessage() {
+  const input = document.getElementById('userInput');
+  const message = input.value.trim();
 
-    const message = $('#userMessage').val().trim();
+  if (message === "") return;
 
-    if (message !== '') {
-      $('#chat-box').append(`<div class="user-message">${message}</div>`);
-      $('#userMessage').val('');
-      $('#chat-box').scrollTop($('#chat-box')[0].scrollHeight);
-    }
-  });
-});
+  const chatBox = document.getElementById('chat-box');
+
+  // Create user bubble
+  const userBubble = document.createElement('div');
+  userBubble.className = 'user-bubble';
+  userBubble.textContent = message;
+  chatBox.appendChild(userBubble);
+
+  input.value = "";
+
+  // Optional: scroll to bottom
+  chatBox.scrollTop = chatBox.scrollHeight;
+}
+
 

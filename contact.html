@@ -9,7 +9,18 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="jeq.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWOXcuAmXyflS64ttH1kpMlEch3vXe7b4&callback=initMap" async defer></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "iGtl-qb7gYy0KVVLx",
+      });
+   })();
+</script>
 
+<script src="email.js"></script>
 </head>
 <body div class="getintouch">
 
@@ -74,9 +85,11 @@
       <textarea id="message" name="message" rows="5" cols="30"></textarea>
     </p>
     <p>
-      <button type="submit">Submit Enquiry</button>
+      <button type="submit" onclick="sendMail()">Submit Enquiry</button>
     </p>
   </form>
+
+    
 
   <hr>
   <p>© 2025 TCC IT Group</p>
