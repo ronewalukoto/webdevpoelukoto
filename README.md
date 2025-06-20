@@ -32,8 +32,8 @@ Weeks	Milestone	Task	Status
 - Week 5	4	Build the website through HTML	Completed
 - Week 6	5	Apply CSS	Completed
 - Week 7	6	Debagging	Completed
-- Week 8	7	Utilization of JavaScript	Pending
-- Week 9	8	Testing And Debegging	Pending
+- Week 8	7	Utilization of JavaScript	Completed
+- Week 9	8	Testing And Debegging	Completed
 
 #POE Details:
 • Part 1:
@@ -62,7 +62,29 @@ Weeks	Milestone	Task	Status
 
 - To improve the user experience, transitions and hover effects were included for interactive areas.
 
-- Future plans will be submit through and 3
+- Future plans will be submit through Part 3
+
+• Part 3:
+
+- I used HTML to develop a completely functional inquiry form.
+
+ - I used semantic tags and a relevant page title to apply good SEO strategies.
+
+- Using external CSS, I stylised the entire website, including animations and support for dark modes.
+
+- Using JavaScript, I included a toggle button to alternate between light and dark themes.
+
+- Before submitting, I utilised JavaScript to verify the client side of the inquiry form.
+
+- I dealt with improper input by displaying error messages for fields that were either empty or filled in inaccurately.
+
+- I submitted the form data to Formspree using AJAX and the Fetch API without having to restart the page.
+
+- I used Google Maps to display the company's address.
+
+- I made interactive animations with jQuery, such as enlarging images upon click and extending FAQ sections.
+
+- I adhered to all guidelines in order to integrate JavaScript, HTML, CSS, and other services into a single, comprehensive solution.
 
 • Changelog:
 
