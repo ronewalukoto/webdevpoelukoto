@@ -29,3 +29,29 @@ CHANGELOG
 - Applied responsive design for mobile with media queries.
 
 - Forced the navbar to stack vertically on mobile and styled . imghome width.
+
+2025-06-19
+
+- Applied consistent CSS styling with improved layout and color scheme
+
+- Styled FAQ section with spacing, hover effects, and animations
+
+- Added dark/light mode toggle using JavaScript with transitions
+
+- Used jQuery for FAQ slide-down and image full-size preview
+
+- Embedded Google Maps and added fallback image
+
+- Created enquiry form with input fields and validation
+
+- Handled form error messages with JavaScript
+
+- Submitted form via AJAX using Formspree
+
+- Displayed confirmation message after submission
+
+- Linked to FAQ page for user support
+
+- Improved mobile responsiveness with media queries
+
+- Ensured consistent UI across all pages
