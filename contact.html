@@ -21,6 +21,25 @@
 </script>
 
 <script src="email.js"></script>
+
+<style>
+
+#form-messages {
+
+  background-color: rgb(255, 232, 232);
+  border: 1px solid red;
+  color: red;
+  display: none;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  max-width: 250px ;
+}
+
+</style>
+
+
 </head>
 <body div class="getintouch">
 
@@ -67,7 +86,7 @@
     
   <p>If you would like a quote or need help with a service, please fill in the form below:</p>
 
-  <form action="#" method="post">
+  <form action="https://formspree.io/f/mdkzlzdw" method="post"id="enquiryForm">
     <p>
       <label for="name">Full Name:</label><br>
       <input type="text" id="name" name="name">
@@ -85,9 +104,19 @@
       <textarea id="message" name="message" rows="5" cols="30"></textarea>
     </p>
     <p>
-      <button type="submit" onclick="sendMail()">Submit Enquiry</button>
-    </p>
-  </form>
+      <button type="submit">Submit Enquiry</button>
+</form>
+
+
+<div class="form">
+
+  <ul id="form-messages">
+
+      <li></li>
+
+  </ul>
+
+</div>
 
     
 
