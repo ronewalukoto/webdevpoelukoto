@@ -252,5 +252,48 @@ body.getintouch {
         width: 500px;
     }
   }
+
+  /* FAQ Style */
+
+
+.contentbox {
+  margin: 2rem 2rem; 
+  border: 3px solid #1fc8e4;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #033951;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.label {
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #054f77;
+  color: #dcf4f8;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.label:hover {
+  background-color: #066a9e;
+}
+
+.contentA {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+  background-color: #022c42;
+  color: #dcf4f8;
+  border-top: 1px solid #1fc8e4;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.contentA.active {
+  display: block;
+}
+
   
   
