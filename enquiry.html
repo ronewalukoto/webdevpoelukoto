@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Enquiry - TCC IT Group</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="jeq.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWOXcuAmXyflS64ttH1kpMlEch3vXe7b4&callback=initMap" async defer></script>
@@ -19,12 +19,14 @@
     <header class="navbar">
       <div class="logo">TCC IT Group</div>
       <nav class="nav-links">
-        <a href="index.html">Home</a> |
-        <a href="services.html">Services</a> |
-        <a href="about.html">About Us</a> |
-        <a href="news.html">News</a> |
-        <a href="enquiry.html">Contact Us</a> |
-            <a href="qna.html">FAQ</a>
+       <a href="index.html">Home</a> |
+          <a href="services.html">Services</a> |
+          <a href="about.html">About Us</a> |
+          <a href="news.html">News</a> |
+          <a href="enquiry.html">Enquiry</a> |
+          <a href="contact.html">Contact Us</a> |
+            <a href="qna.html">FAQ</a> |
+            <button id="theme-toggle" class="toggle-btn">🌙</button>
       </nav>
   </header>
     
@@ -55,25 +57,25 @@
   <p>If you would like a quote or need help with a service, please fill in the form below:</p>
 
   <form action="#" method="post">
-    <p>
-      <label for="name">Full Name:</label><br>
-      <input type="text" id="name" name="name">
-    </p>
-    <p>
-      <label for="email">Email Address:</label><br>
-      <input type="email" id="email" name="email">
-    </p>
-    <p>
-      <label for="service">Service Needed:</label><br>
-      <input type="text" id="service" name="service">
-    </p>
-    <p>
-      <label for="message">Message:</label><br>
-      <textarea id="message" name="message" rows="5" cols="30"></textarea>
-    </p>
-    <p>
-      <button type="submit">Submit Enquiry</button>
-    </p>
+    <div class="whatsapp-chat">
+  <div class="chat-header">TCC IT Support</div>
+
+  <div class="chat-box" id="chat-box">
+    <div class="bot-message">
+      Hello 👋 Need help? We usually reply within 5–25 minutes.<br>
+      You can also check our <a href="qna.html">FAQ Page</a> while you wait.
+    </div>
+  </div>
+
+  <form class="chat-form" id="chat-form">
+    <input type="text" id="userMessage" placeholder="Type your question..." required>
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+  </form>
+</div>
+
   </form>
 
   <hr>

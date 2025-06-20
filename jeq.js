@@ -188,3 +188,18 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+$(document).ready(function () {
+  $('#chat-form').on('submit', function (e) {
+    e.preventDefault();
+
+    const message = $('#userMessage').val().trim();
+
+    if (message !== '') {
+      $('#chat-box').append(`<div class="user-message">${message}</div>`);
+      $('#userMessage').val('');
+      $('#chat-box').scrollTop($('#chat-box')[0].scrollHeight);
+    }
+  });
+});
+
