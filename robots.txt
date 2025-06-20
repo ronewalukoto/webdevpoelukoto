@@ -1,0 +1,17 @@
+User-agent: *
+Disallow:
+
+# Public pages to index
+Allow: /index.html
+Allow: /services.html
+Allow: /about.html
+Allow: /news.html
+Allow: /enquiry.html
+Allow: /contact.html
+Allow: /qna.html
+
+# Assets you don't need indexed
+Disallow: /jeq.js
+Disallow: /style.css
+
+Sitemap: https://ronewalukoto.github.io/webdevpoelukoto/sitemap.xml

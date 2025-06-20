@@ -88,21 +88,23 @@ const products = [
     name: "Gaming Keyboard",
     description: "Mechanical RGB backlit keyboard.",
     price: "R1200",
-    image: "images/keyboard.jpg"
-  },
+  image: "ai-generated-9161446_1920.jpg",
+  
+},
   {
     id: 2,
     name: "27-inch Monitor",
     description: "High refresh rate IPS monitor.",
     price: "R5000",
-    image: "images/monitor.jpg"
+    image: "interior-design-8781907_1920.png"
+    
   },
   {
     id: 3,
     name: "Wireless Mouse",
     description: "Ergonomic and fast response mouse.",
     price: "R650",
-    image: "images/mouse.jpg"
+    image: "gaming-mouse-6159549_1920.jpg"
   }
 ];
 
